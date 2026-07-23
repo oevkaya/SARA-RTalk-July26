@@ -1,8 +1,8 @@
 ---
-title: "Veri Görselleştirmenin Önemine dair"
+title: "Importance of Data Viz for Statistics"
 subtitle: "Experiences and Reflections"
 author: "Ozan Evkaya (University of Edinburgh)"
-date: "2025-10-19"
+date: "2026-07-24"
 output: 
   ioslides_presentation:
     widescreen: true
@@ -18,23 +18,23 @@ knitr::opts_chunk$set(echo = FALSE, fig.width = 6, fig.height = 4, fig.align = "
 library(tidyverse)
 ```
 
-# Girizgah
+# Motivation
 
-## Neden Buradayım 
+## Why I am here?
 
 ```{r, out.width='50%', fig.align='center'}
 knitr::include_graphics("edi.jpg")
 ```
 
-- sizlerle tanışmak!
+- To meet you
 
-- Bir nevi konuşma temrini
+- Challenging myself
 
-- kendime notlar ve yeni şeyler öğrenme alanı
+- being a part of big R community
 
-[Nelerle uğraşıyorum](https://oevkaya.netlify.app/home)
+[About my studies](https://oevkaya.netlify.app/home)
 
-# Veri, Veri, Veri
+# Data is the key
 
 > The representation of numbers … should be directly proportional to the numerical quantities measured. — Edward Tufte 1983
 
@@ -48,26 +48,20 @@ certain kinds of inquiry possible.” [Natalia Cecire]
   – "Data is not a “given” but “taken actively” and constructed" [Johanna Drucker]
 - Data Representation: The form in which data is stored and communicated, might differ in various ways (visualization, physi).
 
-## Ne görüyorsunuz ?
+## What do you see ?
 
 ```{r, out.width='60%', fig.align='center'}
 knitr::include_graphics("Pastavilla_Bad.jpg")
 ```
 
 
-## Peki bağlamı ekleyince
+## When we add the context
 
 ```{r, out.width='60%', fig.align='center'}
 knitr::include_graphics("Pastavilla_Big.png")
 
 ```
 
-
-## Başka türlü olamaz mıydı?
-
-```{r, out.width='50%', fig.align='center'}
-knitr::include_graphics("NHS_breastcancer.jpg")
-```
 
 ## Data Visualization
 
@@ -234,7 +228,7 @@ knitr::include_graphics("DataViz-StoryTelling.png")
 Source for Example: Storytelling with data a data visualization guide for business professionals
 Knaflic, Cole Nussbaumer, Wiley, 2015
 
-# R içerisinde neler var? 
+# What we have via R programming? 
 
 > *"Data and information visualization is concerned with showing quantitative and qualitative information, so that a viewer can see patterns, trends or anomalies, constancy or variation, in ways that other forms—text and tables—do not allow" --- Michael Friendly*
 
@@ -500,9 +494,9 @@ ggplot(data = bat_data,
 * **But**, excessive customisation can be distracting.
 * In general, there are various resources to explore 
 
-# Her veri kendine has görsel istiyor
+# Each data or work requires its own data viz type and style
 
-## Covid19 çalışmasına dair 
+## From my Covid19 work 
 
 ```{r, out.width='60%', fig.align='center'}
 knitr::include_graphics("vaka_new.png")
@@ -510,7 +504,7 @@ knitr::include_graphics("vaka_new.png")
 
 [Leveraging Ensemble and Hybrid Forecasting Tools to Increase Accuracy: Turkey COVID-19 Case Study](https://link.springer.com/article/10.1007/s42979-025-03658-2)
 
-## GenAI survey çalışması
+## GenAI survey paper
 
 ```{r, out.width='60%', fig.align='center'}
 knitr::include_graphics("GenAI-Survey_Fig.png")
@@ -527,13 +521,13 @@ knitr::include_graphics("Glasgow_map.png")
 
 [Cluster-specific ranking and variable importance for Scottish regional deprivation via vine mixtures](https://arxiv.org/abs/2508.04533)
 
-## Öğrenci projelerinden
+## From my student projects
 
 ```{r, out.width='60%', fig.align='center'}
 knitr::include_graphics("FinanTS_Ex.png")
 ```
 
-## Öğrenci projelerinden
+## From my student projects
 
 ```{r, out.width='60%', fig.align='center'}
 knitr::include_graphics("plotGermany_chronic.png")
@@ -541,7 +535,7 @@ knitr::include_graphics("plotGermany_chronic.png")
 
 UG project: Clustering Dementia Characteristics Using Vine Copula Mixture Models
 
-## Ogrenci projelerinden
+## From my student projects
 
 ```{r, out.width='60%', fig.align='center'}
 knitr::include_graphics("h1_lr_instance_1.png")
@@ -549,20 +543,20 @@ knitr::include_graphics("h1_lr_instance_1.png")
 
 [Machine Learning Meets Hospitality: Explainable AI in Hotel Booking Cancellations](https://hotel-booking-dashboard.streamlit.app/)
 
-## Öğrenci projelerinden - ERASMUS+ Internship
+## From my student projects - ERASMUS+ Internship
 
 ```{r, fig.show='hold', out.width='39%', fig.align='center'}
 knitr::include_graphics(c("Erasmus_BarPlot.jpg", "Erasmus_Maps.jpg"))
 ```
 
-## Öğrenci projelerinden - ERASMUS+ Internship
+## From my student projects - ERASMUS+ Internship
 
 ```{r, out.width='60%', fig.align='center'}
 knitr::include_graphics(c("Erasmus-Normality.jpg"))
 ```
 
 
-## Teaching odaklı kullanım 
+## For Teaching
 
 - Shiny based web apps for specific topics 
 
@@ -570,7 +564,7 @@ knitr::include_graphics(c("Erasmus-Normality.jpg"))
 
 - One example if time allows! - LATER
 
-# ggplot ve ötesine dair
+# ggplot and beyond
 
 ## Very promising: Lots of ggplot2 extensions 
 
@@ -612,7 +606,7 @@ knitr::include_graphics(c("Erasmus-Normality.jpg"))
 - Prefer a GUI to build plots? → Esquisse
 - Web app based interactive examples → Shiny 
 
-# Bazı kaynaklara dair
+# Some useful resources
   
 ## RSS: Best Practices for Data Visualisation
 
@@ -660,16 +654,14 @@ Key styling components:
 
 - In terms of understanding the visual type, when to apply, [From Data to Viz](https://www.data-to-viz.com/)
 
-Projelerde iyi bir eşlikçi olabilir...
-
-## What about the Python world ? See the repo!
+## Bonus: What about the Python world ?
 
 - In my view (possibly biased but I am happy about it), R seems still more powerful compared to python regarding the available packages/tools
 - However, there is a growing list of python libraries with a community also 
 - In terms of your general programming habits you can start the safest position
-- There are nowadays more common packages for both landscape 
+- There are nowadays more common packages for both landscape including plotnine as ggplot mirroring in python or applicability of shiny for both
 
-# Peki ya AI etkisi?
+# How about AI impact?
 
 ## Data Automation
 
@@ -733,31 +725,8 @@ knitr::include_graphics("GAIL_FigEx.png")
 knitr::include_graphics("Dataviz_GBUg.png")
 ```
 
-## Yolda gelirken 
 
-```{r, out.width='30%', fig.align='center'}
-knitr::include_graphics("HerkeseBilim_Ex.jpg")
-```
-
-Kaynak: Herkese Bilim Teknoloji Gazetesi, Sayı 493
-
-## Yolda gelirken 2 
-
-```{r, out.width='50%', fig.align='center'}
-knitr::include_graphics("HerkeseBilim_Ex2.jpg")
-```
-
-Kaynak: Herkese Bilim Teknoloji Gazetesi, Sayı 493
-
-## Yolda gelirken 3 
-
-```{r, out.width='50%', fig.align='center'}
-knitr::include_graphics("Oksijen_Ex.jpg")
-```
-
-Kaynak: Oksijen Gazetes, Financial Times eki
-
-## Bazı Okumalara dair
+## Some readings you might enjoy
 
 - [Data Visualization The Good, the Bad, the Weird, Nam Wook Kim](https://www.namwkim.org/datavis/slides/2.%20Data%20Visualization-%20The%20Good,%20the%20Bad,%20the%20Weird.pdf)
 
@@ -767,16 +736,11 @@ Kaynak: Oksijen Gazetes, Financial Times eki
 
 - [Fundamentals of Data Visualization](https://clauswilke.com/dataviz/proportional-ink.html)
 
-## Kolokyum Sonrası
+## Keep in touch
 
-> Bir sincap gibi gezdim durdum <br> 
-> Şimdilik huzuru Edinburgh da buldum <br> 
-> Cagrimdir meraklisina R ile veriyi cizedursun <br>
-> Yolu beraber yürümek isteyenler isterse beni bulsun :)
+- This talk and slides: **????**
 
-- Bu sunum ve içindeki görseller için: **https://github.com/oevkaya/18StatColloqTalk**
-
-- [Hakkımda](https://oevkaya.netlify.app/home) - https://oevkaya.netlify.app/home
+- [About me](https://oevkaya.netlify.app/home) - https://oevkaya.netlify.app/home
 
 - [Linkedin](https://www.linkedin.com/in/ozanevkaya/)
 
