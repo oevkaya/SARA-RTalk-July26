@@ -528,6 +528,7 @@ knitr::include_graphics("h1_lr_instance_1.png")
 
 [Machine Learning Meets Hospitality: Explainable AI in Hotel Booking Cancellations](https://hotel-booking-dashboard.streamlit.app/)
 
+
 ## From my student projects - ERASMUS+ Internship
 
 ```{r, fig.show='hold', out.width='39%', fig.align='center'}
@@ -547,7 +548,7 @@ knitr::include_graphics(c("Erasmus-Normality.jpg"))
 
 - Targeting visual learners with interactivity, implemented in some courses such as Statistics or Data Science
 
-- One example if time allows! - LATER
+- One example if time allows! 
 
 # ggplot and beyond
 
@@ -663,48 +664,35 @@ knitr::include_graphics("OpenAI_MosaicEx.png")
 
 [Decoding AI: The inside story of data analysis in ChatGPT](https://arxiv.org/abs/2404.08480)
 
-## GAIL project Örneği
-
-```{r, out.width='45%', fig.align='center'}
-knitr::include_graphics("GAIL_FigEx.png")
-```
-
-
 [GAIL project report: LLMs are they ready for DS?](https://github.com/oevkaya/GAIL-DS-project/blob/main/Supplementary.pdf)
 
-## LLMs her yerde?
 
-- Bazı R ya da Python paketlerinde LLM based destek, PandasAI gibi 
+## LLMs are everyhwhere
+
+- More AI support in R or python nowadays, including specific packages to use LLMs within IDE
 
 - Code generation is being easier - Github Copilot
 
-- Specific package AI helper, such as Shiny Assistant
+- Specific package AI helper, such as Shiny Assistant or others
 
 
-## Neler olabilir ? 
+## How to train ourselves? 
 
-- AI destekli DataViz daha belirgin olacak ancak, dizayn ve yorumlama açısından bize aktif rol düşüyor ve düşmeli!
+- More AI empowered data viz coming, but the design and interpretation should require active human-being involvements
 
-- Programlama dillerinde data viz hazırlarken, daha çok LLM desteği olabilir, diğer bir deyişle görseli konuşarak çizmeye başladık çoktan bu daha da yaygınlaşabilir
+- We are moving towards to data viz by describing, speaking directly with natural language
 
-- Shiny based vb platformların kullanıcıya sunacağı esneklikler ve kullanıcı sorgusu odaklı alternatifler anında oluşturulabilir
+- Easier to create web-based platforms like shiny and its flexibilities allow users to interact with data more, when it is really useful
 
-- İşin dizayn tarafı ve yorumlanması yine çok önemli o yüzden bu tarz örneklerle bol bol ilgilenmek, farklı verilerin grafikleri neler söyler anlayabilmek önemli
+- To explore and examine different data viz examples, critique them is the key for expanding our knowledge
 
+- Looking at open source materials and reproducing them is a good set of exercises
 
-## Neler yapmalı ?
+- Following specific up-to-date websites or pioneering people in the field such as [Cara Thompson](https://www.cararthompson.com/)
 
-- Bol bol denemeler yapmakta fayda var- ne demişler no pain no gain yahut emeksiz yemek olmaz 
+- Exercising and working together via specific platforms, R-based community events, or data viz competitions or datathons are good sources of learning opportunities
 
-- Açık kaynak örneklerden bol bol yararlanıp, onları yeniden üretme oyunları oynamak iyi bir aktivite olabilir 
-
-- Örnek alınacak belirli isimleri takip etmekte ve okuduğumuz yazıların görsellerini kritik bir gözle incelemekte fayda var, [Cara Thompson](https://www.cararthompson.com/)
-
-- Belirli gruplar ile veri görseli odaklı yarışmalar vb düzenlenebilir, online etkinlikler (R consortium, Python webinars gibi) düzenli takip edilebilir
-
-- R ve pythonda olan paket ve örneklerin hangi durumlarda nasıl işe yarayacağı ara ara düzenli okuma ve takiplerle bir düzenli takip alışkanlığına getirilebilir
-
-## İyi Kötü Çirkin 
+## Good bad and Ugly
 
 ```{r, out.width='100%', fig.align='center'}
 knitr::include_graphics("Dataviz_GBUg.png")
@@ -723,7 +711,7 @@ knitr::include_graphics("Dataviz_GBUg.png")
 
 ## Keep in touch
 
-- This talk and slides: **????**
+- This talk and slides: **https://github.com/oevkaya/SARA-RTalk-July26**
 
 - [About me](https://oevkaya.netlify.app/home) - https://oevkaya.netlify.app/home
 
