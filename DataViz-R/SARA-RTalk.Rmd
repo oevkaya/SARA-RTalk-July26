@@ -26,13 +26,13 @@ library(tidyverse)
 knitr::include_graphics("edi.jpg")
 ```
 
-- To meet you
+- To meet you and keep in touch
 
-- Challenging myself
+- Challenging myself with another talk
 
-- being a part of big R community
+- being a part of big R community across the world
 
-[About my studies](https://oevkaya.netlify.app/home)
+[About me](https://oevkaya.netlify.app/home)
 
 # Data is the key
 
@@ -46,36 +46,21 @@ knitr::include_graphics("edi.jpg")
   - "Almost nothing in the world IS data. ‘Data’ is an abstraction we use to make
 certain kinds of inquiry possible.” [Natalia Cecire]
   – "Data is not a “given” but “taken actively” and constructed" [Johanna Drucker]
-- Data Representation: The form in which data is stored and communicated, might differ in various ways (visualization, physi).
-
-## What do you see ?
-
-```{r, out.width='60%', fig.align='center'}
-knitr::include_graphics("Pastavilla_Bad.jpg")
-```
-
-
-## When we add the context
-
-```{r, out.width='60%', fig.align='center'}
-knitr::include_graphics("Pastavilla_Big.png")
-
-```
-
+- Data Representation: The form in which data is stored and communicated, might differ in various ways (visualization, physicalization).
 
 ## Data Visualization
 
-- As a part of the general data representation, data visualization is very important ingridient of any data analysis workflow. 
+- As a part of the general data representation, data visualization is very important ingredient of any data analysis workflow. 
 
 > Data visualization plays a crucial role in transforming complex data into accessible and interpretable formats, including charts, graphs, scatter plots, or other visualization types (Gubala and Meloncon, 2022).
 
 > “The representation and presentation of data to facilitate understanding”, framing comprehension as a dynamic process that involves perception, interpretation, and reasoning. (Kirk, 2016) 
 
-- For the abstraction, sketching your ideas on a paper or screen is a kind of start all the time. Or maybe in today's computer-based era, inspring from available examples. 
+- For the abstraction, sketching your ideas on a paper or screen is a kind of start all the time. Or maybe in today's computer-based era, inspiring from available examples. 
 
 # Two number examples
 
-**In how many ways of representing/communicating two quantities? Such as 75,37** 
+**In how many ways of representing/communicating two quantities? Such as 75, 37** 
 
 ## So many 
 
@@ -148,10 +133,10 @@ For data visualization task, we can imagine the nested model of the data visuali
 ## About data visualisation guidelines
 
 - **Structure of data** – attributes (types), data items or values
-- Visual marks (geometries)/channels(controlling appearance of marks)
+- **Visual marks** (geometries)/channels (controlling appearance of marks)
 - Mapping data types to in different visual marks, channels
-- Expressiveness - The visual encoding should express all of, and only, the information in the dataset attributes (matching channel and data characteristics)
-- Effectiveness - The importance of the data attribute should be encoded with the most effective visual variable, in order to be noticeable
+- **Expressiveness** - The visual encoding should express all of, and only, the information in the dataset attributes (matching channel and data characteristics)
+- **Effectiveness** - The importance of the data attribute should be encoded with the most effective visual variable, in order to be noticeable
 
 ## Visual marks and channels
 
@@ -184,18 +169,18 @@ knitr::include_graphics("VisualVariables_Example.png")
 knitr::include_graphics("DataViz-StoryTelling_BadViz.png")
 ```
 
-## Why Visualize - Repeating again
+## Why Visualize - Worth to repeat
 
 - See patterns, spot anomalies, generate questions. The purpose is to literally *see* what your data seems to say. Communicate findings clearly and persuasively.
-- Start simple: summaries + visuals. (EDA mindset) and iterate to get a better version
+- Start simple: summaries + visuals with EDA mindset. Always iterate to get a better version
 
 Best final visual depends on;
 
-- data types
-- context of the data 
-- tasks to perform
-- questions to answer
-- messages to deliver 
+- *data types*
+- *context of the data*
+- *tasks to perform*
+- *questions to answer*
+- *messages to deliver*
 
 > *"The simple graph has brought more information to the data analyst's mind than any other device." --- John Tukey*
 
@@ -321,7 +306,7 @@ ggplot(data = penguins,
 * Changing the colour pallet that is more accessible for colour blindness.
 * ...
 
-**However**, more is not necessarily good - there should be certain design choices 
+**However**, more is not necessarily good - there should be certain design choices and solid level of data understanding to decide what and how to visualize
 
 ## Understanding your data
 
@@ -492,7 +477,7 @@ ggplot(data = bat_data,
 * Specific starting point would be [R Graph gallery](https://r-graph-gallery.com/)
 
 * **But**, excessive customisation can be distracting.
-* In general, there are various resources to explore 
+* In general, there are various resources to explore in R ecosystem. 
 
 # Each data or work requires its own data viz type and style
 
