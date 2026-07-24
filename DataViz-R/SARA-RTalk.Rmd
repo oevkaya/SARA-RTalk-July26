@@ -731,6 +731,8 @@ knitr::include_graphics("Dataviz_GBUg.png")
 
 - [Fundamentals of Data Visualization](https://clauswilke.com/dataviz/proportional-ink.html)
 
+- [Dataviz Inspiration](https://www.dataviz-inspiration.com/)
+
 ## Keep in touch
 
 - This talk and slides: **https://github.com/oevkaya/SARA-RTalk-July26**
