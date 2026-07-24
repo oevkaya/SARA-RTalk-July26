@@ -43,7 +43,7 @@ knitr::include_graphics("edi.jpg")
 - A dataset is a structured collection of data (observations or measurements (unprocessed or processed) of various data types: numbers, characters, factors, dates, etc.) associated with a unique field.
 - Symbols that represent people, events, things or ideas etc. regarding the type that we are dealing with
 - Humanities perspective:
-  - "Almost nothing in the world IS data. ‘Data’ is an abstraction we use to make
+  - "Almost nothing in the world is data. ‘Data’ is an abstraction we use to make
 certain kinds of inquiry possible.” [Natalia Cecire]
   – "Data is not a “given” but “taken actively” and constructed" [Johanna Drucker]
 - Data Representation: The form in which data is stored and communicated, might differ in various ways (visualization, physicalization).
@@ -541,6 +541,30 @@ knitr::include_graphics(c("Erasmus_BarPlot.jpg", "Erasmus_Maps.jpg"))
 knitr::include_graphics(c("Erasmus-Normality.jpg"))
 ```
 
+## From my student projects - 25-26
+
+```{r, out.width='60%', fig.align='center', out.height='50%'}
+knitr::include_graphics(c("lothian_kmeans_raw_map.png"))
+```
+
+UG project: Exploiting clustering with vine copulas to examie the Scottish Index of Multiple Deprivation (SIMD) 2020
+
+## From my student projects - 25-26
+
+```{r, out.width='60%', fig.align='center'}
+knitr::include_graphics(c("ch5_scnC_price_boxplot.png"))
+```
+
+UG project: Visualizing Edinburgh’s Fringe for festivalgoers: Shiny web application study
+
+## From a joint work- Map challenge
+
+```{r, out.width='60%', fig.align='center', out.height='50%'}
+knitr::include_graphics(c("Nd142_Peninsula_Bubbles_both.png"))
+```
+
+Research paper: Working with small sample data for Antarctic region
+
 
 ## For Teaching
 
@@ -678,17 +702,13 @@ knitr::include_graphics("OpenAI_MosaicEx.png")
 
 ## How to train ourselves? 
 
-- More AI empowered data viz coming, but the design and interpretation should require active human-being involvements
-
-- We are moving towards to data viz by describing, speaking directly with natural language
+- More AI empowered data viz coming (creating by speaking), but the design and interpretation should require active human-being involvements
 
 - Easier to create web-based platforms like shiny and its flexibilities allow users to interact with data more, when it is really useful
 
-- To explore and examine different data viz examples, critique them is the key for expanding our knowledge
+- To explore/reproduce and examine different data viz examples via open sources, critique them is the key for expanding our knowledge
 
-- Looking at open source materials and reproducing them is a good set of exercises
-
-- Following specific up-to-date websites or pioneering people in the field such as [Cara Thompson](https://www.cararthompson.com/)
+- Following specific up-to-date websites or pioneering people in the field such as [Cara Thompson](https://www.cararthompson.com/), [Nicola Rennie](https://nrennie.rbind.io/)
 
 - Exercising and working together via specific platforms, R-based community events, or data viz competitions or datathons are good sources of learning opportunities
 
@@ -706,6 +726,8 @@ knitr::include_graphics("Dataviz_GBUg.png")
 - [Data visualization in AI-assisted decision-making: a systematic review](https://www.frontiersin.org/journals/communication/articles/10.3389/fcomm.2025.1605655/full)
 
 - [From Data to Viz](https://www.data-to-viz.com/)
+
+- [The Art of Data Visualization with ggplot2 The TidyTuesday Cookbook](https://nrennie.rbind.io/art-of-viz/)
 
 - [Fundamentals of Data Visualization](https://clauswilke.com/dataviz/proportional-ink.html)
 
